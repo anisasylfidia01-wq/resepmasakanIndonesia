@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FDFDFD"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Admin - Kelola Resep"
+            android:textColor="#D4A017"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="24dp"/>
+
+        <EditText
+            android:id="@+id/etNamaResep"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nama Masakan (Gunakan untuk Simpan/Hapus)"
+            android:minHeight="48dp"
+            android:inputType="text"
+            android:layout_marginBottom="16dp"
+            android:importantForAutofill="no" />
+
+        <EditText
+            android:id="@+id/etUrlGambar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Link URL Gambar (https://...)"
+            android:minHeight="48dp"
+            android:inputType="textUri"
+            android:layout_marginBottom="16dp"
+            android:importantForAutofill="no" />
+
+        <EditText
+            android:id="@+id/etBahan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Bahan-bahan"
+            android:minHeight="48dp"
+            android:gravity="top"
+            android:lines="4"
+            android:inputType="textMultiLine"
+            android:layout_marginBottom="16dp"
+            android:importantForAutofill="no" />
+
+        <EditText
+            android:id="@+id/etAlat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Alat-alat"
+            android:minHeight="48dp"
+            android:layout_marginBottom="16dp"
+            android:importantForAutofill="no" />
+
+        <EditText
+            android:id="@+id/etLangkah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Langkah-langkah memasak"
+            android:minHeight="48dp"
+            android:gravity="top"
+            android:lines="6"
+            android:inputType="textMultiLine"
+            android:layout_marginBottom="32dp"
+            android:importantForAutofill="no" />
+
+        <Button
+            android:id="@+id/btnSimpan"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Simpan"
+            android:backgroundTint="#D4A017"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="12dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnHapus"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Hapus"
+            android:backgroundTint="#B71C1C"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</ScrollView>

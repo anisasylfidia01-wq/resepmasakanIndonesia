@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "442632123326",
+    "firebase_url": "https://resepmasakanindonesia-ba975-default-rtdb.firebaseio.com",
+    "project_id": "resepmasakanindonesia-ba975",
+    "storage_bucket": "resepmasakanindonesia-ba975.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:442632123326:android:7ceb21d4231a56444bbfef",
+        "android_client_info": {
+          "package_name": "com.example.resepmasakanindonesia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "442632123326-7b05rpemsiglqkhnbe95cp5pvkcocu3q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.resepmasakanindonesia",
+            "certificate_hash": "4302e34f9424191fb1e9803d5333f2c16c74b95f"
+          }
+        },
+        {
+          "client_id": "442632123326-mr0486tmt89r7ce0k9g8ofn5tiiaanpa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoZKcCcwac5hCPTmHyreatI9CBJN4d18Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "442632123326-mr0486tmt89r7ce0k9g8ofn5tiiaanpa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
